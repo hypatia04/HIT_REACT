@@ -1,14 +1,12 @@
 
 import './App.css';
-import FeatureList from './component/feature/featureList';
-import Toggle from './component/toggle/toggle';
+import Tailwind from './component/TestTailwind';
 
 function App() {
   return (
    
    <div>
-   <Toggle></Toggle>
-   <FeatureList></FeatureList>
+   <Tailwind></Tailwind>
    </div>
   );
 }
